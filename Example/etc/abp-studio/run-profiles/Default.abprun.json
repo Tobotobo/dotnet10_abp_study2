@@ -2,7 +2,7 @@
   "applications": {
     "Example.HttpApi.Host": {
       "type": "dotnet-project",
-      "launchUrl": "https://localhost:44384",
+      "launchUrl": "https://localhost:44328",
       "path": "../../../src/Example.HttpApi.Host/Example.HttpApi.Host.csproj",
       "kubernetesService": ".*-httpapihost$",
       "healthCheckEndpoint": "/health-status",
